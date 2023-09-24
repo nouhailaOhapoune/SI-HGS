@@ -1,0 +1,38 @@
+
+.sidebar-container {
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    margin-top: 40px;
+    width: 260px;
+    background-color: white;
+    transition: width 0.3s;
+    box-shadow: white;
+}
+
+.sidebar.collapsed {
+    width: 90px;
+    box-shadow: white;
+}
+
+.collapse-button {
+    position: absolute;
+    margin-top: 465px;
+    margin-left: 80px;
+    border: none;
+    width: 50px;
+}
+
+.collapse-button.collapsed {
+    position: absolute;
+    margin-left: 20px;
+    border: none;
+}
+.menu-link {
+    text-decoration: none;
+}
+
+

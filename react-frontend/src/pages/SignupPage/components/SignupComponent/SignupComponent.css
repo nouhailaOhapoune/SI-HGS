@@ -1,0 +1,120 @@
+.signup-container {
+    background-image: url("../../../../assets/images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 99vh;
+    margin: 0;
+}
+.signup-image {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    width: 150px;
+    height: 120px;
+    border-radius: 20px;
+}
+
+.signup-form {
+    max-width: 300px;
+    width: 130%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDE4F1;;
+    border-radius: 8px;
+
+}
+
+.field {
+    position: relative;
+    margin-bottom: 15px;
+}
+.input{
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-signup {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #455297;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-signup:disabled {
+    background-color: #455297;
+    cursor: not-allowed;
+}
+
+.login{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+a{
+    margin-left: 15px;
+    text-decoration: underline;
+    color: #455297;
+    cursor: pointer;
+}
+
+.sentence{
+    position: relative;
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+    margin-bottom: 7px;
+    width: 280px;
+    font-family: 'Lato';
+    font-size: 13px;
+    /*line-height: 136.5%;*/
+    color: #455297;
+}
+h3{
+    left: 373px;
+    margin-bottom: 7px;
+    margin-top: 0px;
+    top: 100px;
+    font-size: 22px;
+    line-height: 35px;
+    font-family: 'Lato';
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+}
+
+
+
+
+

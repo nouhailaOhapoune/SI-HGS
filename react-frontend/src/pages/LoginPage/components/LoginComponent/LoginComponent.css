@@ -1,0 +1,103 @@
+.login-container {
+    background-image: url("../../../../assets/images/background.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/* logo HGS SYSTEM */
+.logo {
+    display: flex;
+    position: static;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    width: 210px;
+    height: 140px;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+.login-form {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDE4F1;;
+    border-radius: 8px;
+
+}
+
+.email-input{
+    margin-bottom: 15px;
+}
+.password-input {
+    position: relative;
+}
+
+.toggle-pass {
+    position: absolute;
+    top: 35%;
+    right: 20px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.input{
+    width: 90%;
+}
+
+.btn-login {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #455297;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0px;
+}
+
+.btn-login:disabled {
+    background-color: #455297;
+    cursor: not-allowed;
+}
+
+.signUp{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+a{
+    text-decoration: underline;
+    color: #455297;
+    cursor: pointer;
+}
+.forgot-password {
+    text-align: left;
+    color: red;
+    font-size: small;
+    cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="conge-service" />
+        <module name="stagiaire-service" />
+        <module name="user-service" />
+        <module name="pret-service" />
+        <module name="discovery-service" />
+        <module name="gateway" />
+        <module name="employee-service" />
+        <module name="document-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="conge-service (1) (org.sid)" target="17" />
+      <module name="conge-service (2) (org.example)" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="conge-service" options="-parameters" />
+      <module name="conge-service (1) (org.sid)" options="-parameters" />
+      <module name="discovery-service" options="-parameters" />
+      <module name="document-service" options="-parameters" />
+      <module name="employee-service" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="pret-service" options="-parameters" />
+      <module name="stagiaire-service" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

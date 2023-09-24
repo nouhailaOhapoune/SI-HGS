@@ -1,0 +1,41 @@
+.table{
+    width: 79%;
+    margin-left: 300px;
+    top:200px;
+    margin-right: 20px;
+    background-color: white;
+}
+.ant-table-tbody{
+    background-color: white;
+}
+
+a {
+    margin-left: 0px;
+}
+
+h2{
+    margin-left: 300px;
+    position: absolute;
+    top:105px;
+
+}
+
+.vvv{
+    position: absolute;
+    right: 40px;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-pagination .ant-pagination-item  {
+    height: 47.481482px;
+}
+
+.ant-pagination-item.ant-pagination-item-active{
+    height: 47.481482px;
+}
+
+.delete-btn{
+    background-color: #455297;
+    color: white;
+}
+
+

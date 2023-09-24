@@ -1,0 +1,24 @@
+.search-bar-component{
+    display: flex;
+    margin-left: 700px;
+    position: absolute;
+    top:150px;
+
+}
+
+.srch{
+    background-color: #455297;
+    width: 50px;
+    border-radius: 0 5px 5px 0;
+}
+.anticon.anticon-search{
+    color: white;
+}
+
+.clear-icon{
+    position: absolute;
+    top: 45%;
+    right: 65px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}

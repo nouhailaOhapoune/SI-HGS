@@ -1,0 +1,45 @@
+.header-container {
+    width: 100%;
+    height: 60px;
+    background-color: #455297;
+}
+
+.header-container h1 {
+    top: 12px;
+    left: 15px;
+    width: 300px;
+    height: 52px;
+    font-family: 'Lexend Zetta';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.header-container .text-end {
+   position: absolute;
+    margin-top: 5px;
+    right: 245px;
+}
+
+
+.anticon.anticon-user{
+   font-size: larger;
+}
+
+.nom{
+    position: absolute;
+    margin-top: 8px;
+    right: 78px;
+   color: white;
+    font-size:x-small;
+}
+.icon{
+    position: absolute;
+    margin-top: 20px;
+    right: 30px;
+    color: white;
+    font-size: large;
+
+}

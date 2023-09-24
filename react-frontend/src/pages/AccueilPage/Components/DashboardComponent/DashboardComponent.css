@@ -1,0 +1,22 @@
+.dashboard-container {
+    display: flex;
+    position: absolute;
+    margin-left: 300px;
+    top:160px;
+    margin-right: 20px;
+}
+
+.dashboard {
+    max-width: 500px;
+    max-height: 300px;
+}
+.dash{
+    max-width: 500px;
+    max-height: 300px;
+    margin-left: 50px;
+}
+
+
+
+
+
